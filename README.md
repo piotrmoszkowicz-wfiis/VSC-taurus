@@ -40,7 +40,7 @@ Sugeruje wykorzystanie MobaXTerm (jeśli robimy setup przez windowsa) - MobaXTer
 * Aby odpalać VSCode w dowolnym miejscu z konsoli za pomocą komendy `code` należy go dodać do patha. Przejdź do swojego katalogu domowego.
 * Edytuj plik .bashrc - jak skorzystam z nano, więc odpalam komendę `nano .bashrc`.
 * Przechodzimy na sam dół pliku (w nano można korzystać z klawisza PAGE DOWN).
-* Dopisujemy na sam dół:``export PATH=$HOME/DROGA_DO_VSCODE/:$PATH` - Ja mam zainstalowany VSCode w następującej lokalizacji: `~/VSCode/VSCode-linux-x64/` - dlatego wpisuje `export PATH=$HOME/VSCode/VSCode-linux-x64/:$PATH`.
+* Dopisujemy na sam dół: `export PATH=$HOME/DROGA_DO_VSCODE/:$PATH` - Ja mam zainstalowany VSCode w następującej lokalizacji: `~/VSCode/VSCode-linux-x64/` - dlatego wpisuje `export PATH=$HOME/VSCode/VSCode-linux-x64/:$PATH`.
 * Zapisujemy plik (dla nano - CTRL+X -> y -> ENTER).
 * Wywołujemy komendę `source .bashrc`.
 * Sprawdzamy za pomocą komendy `code` czy wszystko śmiga - powinno być OK :)
